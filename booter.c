@@ -11,9 +11,7 @@ int main() {
 	printf("Starting Xfwm4...\n");
 	// Compiz is the default window manager.
 	system("xfwm4 --replace &");
-	printf("Starting xterm\n");
-	// XTerm is the default terminal emulator. It is how you start apps in ClyveFinder at the moment, but the default behavior for this will probably be changed soon.
-	// When XTerm stops, ClyveFinder stops.
-	// This will be changed to an actual ClyveFinder session manager soon.
-	system("xterm");
+	printf("Starting session...\n");
+	// The booter script is not ClyveFinder in it's entirety. Now from here we will start the session, which does stuff like keep ClyveFinder running.
+	system("clyvesession");
 }
