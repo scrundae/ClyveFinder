@@ -13,5 +13,5 @@ int main() {
 	system("xfwm4 --replace &");
 	printf("Starting session...\n");
 	// The booter script is not ClyveFinder in it's entirety. Now from here we will start the session, which does stuff like keep ClyveFinder running.
-	system("clyvesession");
+	system("./clyvesession");
 }
