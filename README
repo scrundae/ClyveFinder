@@ -21,13 +21,15 @@ Features >
 Setbacks (might be fixed later) >
 
 ] Difficult for beginners to use.
-] xterm is the default terminal emulator. Tough luck if you prefer a different terminal emulator (for now :)
+] xterm is the default terminal emulator. Tough luck if you prefer a different terminal emulator (for now :-)
 ] Only X.
 ] No plugin support [BIG PRIORITY]
 
 -=-=-=-
 
-Dependencies (when running) >
-
-] compiz (wm)
-] xterm (main terminal) 
+NOTE
+----
+By default, the wm is Xfwm4, however this can be changed. Make sure you have Xfwm4 installed.
+The terminal emulator of choice (where you'll open your apps) is xterm. Make sure you have it installed as well.
+At the moment, ClyveFinder is on no repositories. You'll have to clone it with 'git' and then just simply type 'make' to compile.
+Don't worry, it takes like 3 seconds to do it all.
