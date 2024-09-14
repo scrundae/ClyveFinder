@@ -29,7 +29,7 @@ Setbacks (might be fixed later) >
 
 NOTE
 ----
-By default, the wm is Xfwm4, however this can be changed. Make sure you have Xfwm4 installed.
+By default, the wm is Metacity, however this can be changed. Make sure you have Metacity installed.
 The terminal emulator of choice (where you'll open your apps) is xterm. Make sure you have it installed as well.
 At the moment, ClyveFinder is on no repositories. You'll have to clone it with 'git' and then just simply type 'make' to compile.
 Don't worry, it takes like 3 seconds to do it all.

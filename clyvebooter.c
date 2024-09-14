@@ -11,8 +11,8 @@ int main() {
 	// There is definitely a better way to do this out there somewhere but this works just fine for now.
 	printf("Starting ClyveFinder | please wait...\n");
 	printf("Starting Xfwm4...\n");
-	// Compiz is the default window manager.
-	system("xfwm4 --replace &");
+	// Metacity is the default window manager.
+	system("metacity --replace &");
 	printf("Starting session...\n");
 	// The booter script is not ClyveFinder in it's entirety. Now from here we will start the session, which does stuff like keep ClyveFinder running.
 	startsession();
