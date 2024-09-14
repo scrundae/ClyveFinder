@@ -1,2 +1,2 @@
 all:
-	gcc -o clyvefinder clyvebooter.c clyvesession.c
+	gcc -o bin/clyvefinder clyvebooter.c clyvesession.c
