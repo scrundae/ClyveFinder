@@ -33,4 +33,4 @@ By default, the wm is Metacity, however this can be changed. Make sure you have 
 The terminal emulator of choice (where you'll open your apps) is xterm. Make sure you have it installed as well.
 At the moment, ClyveFinder is on no repositories. You'll have to clone it with 'git' and then just simply type 'make' to compile.
 Don't worry, it takes like 3 seconds to do it all.
-This allows you to configure it to how you'd like.
+This allows you to configure it to how you'd like (At the moment).
